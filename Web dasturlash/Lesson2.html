@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <form action="https://echo.htmlacademy.ru">
+        <label for="Ism">Ism:</label>
+        <input type="text" name="Ism" placeholder="Ismingizni kiriting!!" id="Ism" required>
+        <br>
+        <br>
+        <label for="Email">Elektron pochta</label>
+        <input type="email" name="Pochta" id="Email" placeholder="Emailni kiriting">
+        <br>
+        <br>
+        <label for="telnomer">Telefon raqam</label>
+        <input type="number" id="telnomer" name="telnomer" placeholder="Telefonni kiriting" required>
+        <br>
+        <br>
+        <label >Qidirilayotgan narsa
+            <input type="search"  name="Qidiruv" placeholder="Nima kerak" >
+        </label>
+        <br>
+        <br>
+        <label for="parol">Parol</label>
+        <input type="password" placeholder="Parol kiriting!!" id="parol" name="Parol" required>
+        <br>
+        <br>
+        <label for="bob">Tug'ilgan sana:</label>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Tanlovlar</legend>
+            <label>Tanlang
+                <select name="Kerakli mashina">
+                    <optgroup label="Sport cars">
+                        <option value="bmw">BMW</option>
+                        <option value="toyota" >TOYOTA</option>
+                        <option value="nissan">NISSAN</option>
+                    </optgroup>
+                    <optgroup label="Sedans">
+                        <option value="opel">Opel</option>
+                        <option value="orlando" disabled>Orlando</option>
+    
+                    </optgroup>
+                </select>
+            </label>
+            <br>
+            <br>
+            
+            
+        </fieldset>
+       
+        <fieldset>
+            <legend>Tolov usuli</legend>
+            <label>
+                To'lov usuli:
+                <label> Naqt pul
+                    <input type="radio" name="to'lov usuli" value="naqt pul">
+                </label>
+                <label>Pul o'tkazish
+                    <input type="radio" name="to'lov usuli" value="naqt pul">
+                </label>
+            </label>
+            <br>
+            <br>
+            <label>
+                Bizning shatrlarga rozimisiz:
+                <input type="checkbox" name="shartlarga rozilik">
+            </label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>W3 </legend>
+        </fieldset>
+        <br>
+        <br>
+        <button>Jo'natish</button>
+    </form>
+</body>
+</html>
